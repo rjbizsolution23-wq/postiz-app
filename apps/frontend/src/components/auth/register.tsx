@@ -213,7 +213,8 @@ export function RegisterAfter({
                 )}
                 &nbsp;
                 <a
-                  href={`https://postiz.com/terms`}
+                  href="/terms"
+                  target="_blank"
                   className="underline hover:font-bold"
                   rel="nofollow"
                 >
@@ -222,7 +223,8 @@ export function RegisterAfter({
                 &nbsp;
                 {t('and', 'and')}&nbsp;
                 <a
-                  href={`https://postiz.com/privacy`}
+                  href="/privacy"
+                  target="_blank"
                   rel="nofollow"
                   className="underline hover:font-bold"
                 >

@@ -2,6 +2,6 @@
 
 set -o xtrace
 
-docker rmi localhost/postiz || true
-docker build --target dist -t localhost/postiz -f Dockerfile.dev .
-docker build --target devcontainer -t localhost/postiz-devcontainer -f Dockerfile.dev .
+docker rmi localhost/instapost || true
+docker build --target dist -t localhost/instapost -f Dockerfile.dev .
+docker build --target devcontainer -t localhost/instapost-devcontainer -f Dockerfile.dev .

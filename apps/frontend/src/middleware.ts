@@ -38,7 +38,12 @@ export async function middleware(request: NextRequest) {
   if (
     nextUrl.pathname.startsWith('/uploads/') ||
     nextUrl.pathname.startsWith('/p/') ||
-    nextUrl.pathname.startsWith('/icons/')
+    nextUrl.pathname.startsWith('/icons/') ||
+    nextUrl.pathname.startsWith('/privacy') ||
+    nextUrl.pathname.startsWith('/terms') ||
+    nextUrl.pathname.startsWith('/cookies') ||
+    nextUrl.pathname.startsWith('/accessibility') ||
+    nextUrl.pathname.startsWith('/dmca')
   ) {
     return topResponse;
   }

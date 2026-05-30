@@ -46,7 +46,7 @@ export class LoadToolsService {
     ]);
 
     return new Agent({
-      name: 'postiz',
+      name: 'instapost',
       description: 'Agent that helps manage and schedule social media posts for users',
       instructions: ({ runtimeContext }) => {
         const ui: string = runtimeContext.get('ui' as never);

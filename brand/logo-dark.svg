@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="100" height="100" rx="26" fill="url(#brandGradient)" />
+    <circle cx="50" cy="50" r="26" fill="#ffffff" fill-opacity="0.15" />
+    <circle cx="50" cy="50" r="14" fill="#ffffff" />
+    <circle cx="72" cy="28" r="5" fill="#fbbf24" />
+    <path d="M 42,50 L 58,40 L 50,58 Z" fill="url(#brandGradient)" />
+  </g>
+
+  <!-- Dark mode text is white -->
+  <text x="135" y="70" font-family="'Poppins', sans-serif" font-size="48" font-weight="800" fill="#ffffff">
+    Insta<tspan fill="url(#brandGradient)">Post</tspan>
+  </text>
+
+  <text x="137" y="94" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#9ca3af" letter-spacing="1">
+    BY RJ BUSINESS SOLUTIONS
+  </text>
+</svg>
