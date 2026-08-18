@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent | RJ Business Solutions</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body data-page="agent">
+  <div class="app">
+    <aside class="rail" id="rail"></aside>
+    <section class="main">
+      <header class="top">
+        <h1>Agent</h1>
+        <div class="meta">
+          <a class="org" href="settings.html">RJ Business Solutions</a>
+          <a class="avatar" href="settings.html">RJ</a>
+        </div>
+      </header>
+      <div class="body">
+        <aside class="sidebar">
+          <a class="add" href="create-post.html">+ New draft</a>
+          <a class="ai" href="calendar.html">Open calendar</a>
+          <div class="channels">
+            <h3>SUGGESTED MOVES</h3>
+            <a class="ch" href="create-post.html">Write a LinkedIn recap</a>
+            <a class="ch" href="analytics.html">Review this week's winners</a>
+            <a class="ch" href="media.html">Pick a reel thumbnail</a>
+          </div>
+        </aside>
+        <div class="content chat">
+          <div class="msgs" id="msgs">
+            <div class="msg bot">
+              <strong class="gold">RJ Agent</strong>
+              <p class="muted" style="margin-top:6px">I can draft posts, recycle winners, and keep your calendar full. What should we ship next?</p>
+            </div>
+          </div>
+          <form class="composer" id="agentForm">
+            <input id="agentInput" placeholder="Ask the agent to write a post..." />
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+  <script src="nav.js"></script>
+  <script>
+    document.getElementById('agentForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var input = document.getElementById('agentInput');
+      var text = input.value.trim();
+      if (!text) return;
+      var box = document.getElementById('msgs');
+      box.insertAdjacentHTML('beforeend', '<div class="msg user"><strong>You</strong><p class="muted" style="margin-top:6px"></p></div>');
+      box.lastElementChild.querySelector('p').textContent = text;
+      input.value = '';
+      setTimeout(function () {
+        box.insertAdjacentHTML('beforeend', '<div class="msg bot"><strong class="gold">RJ Agent</strong><p class="muted" style="margin-top:6px">Draft ready. I scheduled a LinkedIn + Instagram pair for Thursday at 1:00 PM. <a href="create-post.html">Open the draft</a> or <a href="calendar.html">see the calendar</a>.</p></div>');
+        box.scrollTop = box.scrollHeight;
+      }, 400);
+    });
+  </script>
+</body>
+</html>

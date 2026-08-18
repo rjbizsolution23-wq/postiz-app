@@ -18,7 +18,7 @@ export class MastraService {
       MastraService.mastra = new Mastra({
         storage: getMastraStore(),
         agents: {
-          instapost: await this._loadToolsService.agent(),
+          rjBusinessSolutions: await this._loadToolsService.agent(),
         },
         logger: new ConsoleLogger({
           level: 'info',

@@ -3,7 +3,7 @@ export const dynamic = 'force-dynamic';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'InstaPost Lifetime Deal',
+  title: 'RJ Business Solutions Lifetime Deal',
   description: '',
 };
 

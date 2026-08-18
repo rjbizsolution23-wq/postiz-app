@@ -1,10 +1,10 @@
 <p align="center">
   <picture>
-    <img alt="InstaPost Logo" src="https://storage.googleapis.com/msgsndr/qQnxRHDtyx0uydPd5sRl/media/67eb83c5e519ed689430646b.jpeg" width="120" style="border-radius: 20%;" />
+    <img alt="RJ Business Solutions Logo" src="https://rjbusinesssolutions.org/logo.png" width="160" />
   </picture>
 </p>
 
-<h1 align="center">InstaPost</h1>
+<h1 align="center">RJ Business Solutions</h1>
 
 <p align="center">
   <strong>The Ultimate AI-Powered Enterprise Social Media Scheduler</strong>
@@ -22,7 +22,7 @@
 <div align="center">
   <h3>The ultimate open-source alternative to Buffer, Hypefury, and Hootsuite.</h3>
   <p>
-    <strong>InstaPost</strong> offers everything you need to manage your social media posts, build an audience, capture leads, and scale your business with cutting-edge AI assistance.
+    <strong>RJ Business Solutions</strong> offers everything you need to manage your social media posts, build an audience, capture leads, and scale your business with cutting-edge AI assistance.
   </p>
 </div>
 
@@ -85,7 +85,7 @@ pnpm run dev
 
 ## 🛡️ Compliance & Platform Alignment
 
-- **InstaPost** operates fully in alignment with all supported social platforms' official OAuth standards.
+- **RJ Business Solutions** operates fully in alignment with all supported social platforms' official OAuth standards.
 - No client-side scraping, automated bot workflows, or unauthorized API key proxies.
 - Premium dark-themed, fully compliant legal agreements are included out-of-the-box (Privacy, Terms of Service under FCRA/CROA regulations, Cookies, accessibility standards, and DMCA designations).
 

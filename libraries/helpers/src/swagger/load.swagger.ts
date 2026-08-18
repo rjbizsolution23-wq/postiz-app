@@ -3,7 +3,7 @@ import { INestApplication } from '@nestjs/common';
 
 export const loadSwagger = (app: INestApplication) => {
   const config = new DocumentBuilder()
-    .setTitle('InstaPost Swagger file')
+    .setTitle('RJ Business Solutions Swagger file')
     .setDescription('API description')
     .setVersion('1.0')
     .build();

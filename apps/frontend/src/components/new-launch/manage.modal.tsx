@@ -398,7 +398,7 @@ export const ManageModal: FC<AddEditModalProps> = (props) => {
                   <div
                     onClick={() => setShowSettings(!showSettings)}
                     className={clsx(
-                      'bg-[#612BD3] rounded-[12px] flex items-center gap-[8px] cursor-pointer p-[12px]',
+                      'bg-[#001963] rounded-[12px] flex items-center gap-[8px] cursor-pointer p-[12px]',
                       showSettings ? '!rounded-b-none' : ''
                     )}
                   >
@@ -490,7 +490,7 @@ export const ManageModal: FC<AddEditModalProps> = (props) => {
             )}
             {addEditSets && (
               <button
-                className="text-white text-[15px] font-[600] min-w-[180px] btnSub disabled:cursor-not-allowed disabled:opacity-80 outline-none gap-[8px] flex justify-center items-center h-[44px] rounded-[8px] bg-[#612BD3] pl-[20px] pr-[16px]"
+                className="text-white text-[15px] font-[600] min-w-[180px] btnSub disabled:cursor-not-allowed disabled:opacity-80 outline-none gap-[8px] flex justify-center items-center h-[44px] rounded-[8px] bg-[#001963] pl-[20px] pr-[16px]"
                 disabled={
                   selectedIntegrations.length === 0 || loading || locked
                 }
@@ -506,7 +506,7 @@ export const ManageModal: FC<AddEditModalProps> = (props) => {
                     selectedIntegrations.length === 0 || loading || locked
                   }
                   onClick={schedule('schedule')}
-                  className="text-white min-w-[180px] btnSub disabled:cursor-not-allowed disabled:opacity-80 outline-none gap-[8px] flex justify-center items-center h-[44px] rounded-[8px] bg-[#612BD3] pl-[20px] pr-[16px]"
+                  className="text-white min-w-[180px] btnSub disabled:cursor-not-allowed disabled:opacity-80 outline-none gap-[8px] flex justify-center items-center h-[44px] rounded-[8px] bg-[#001963] pl-[20px] pr-[16px]"
                 >
                   <div className="text-[15px] font-[600]">
                     {selectedIntegrations.length === 0
@@ -531,7 +531,7 @@ export const ManageModal: FC<AddEditModalProps> = (props) => {
                   }
                   className="rounded-[8px] z-[300] disabled:cursor-not-allowed disabled:opacity-80 hidden group-hover:flex absolute bottom-[100%] -left-[12px] p-[12px] w-[206px] bg-newBgColorInner"
                 >
-                  <div className="text-white rounded-[8px] bg-[#D82D7E] h-[44px] w-full flex justify-center items-center post-now">
+                  <div className="text-white rounded-[8px] bg-[#C9A84C] h-[44px] w-full flex justify-center items-center post-now">
                     Post Now
                   </div>
                 </button>

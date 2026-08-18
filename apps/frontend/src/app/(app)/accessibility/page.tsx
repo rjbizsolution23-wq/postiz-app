@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Accessibility Statement | InstaPost',
-  description: 'WCAG 2.1 AA compliance and web accessibility guidelines for InstaPost, a subsidiary of RJ Business Solutions LLC.',
+  title: 'Accessibility Statement | RJ Business Solutions',
+  description: 'WCAG 2.1 AA compliance and web accessibility guidelines for RJ Business Solutions, a subsidiary of RJ Business Solutions LLC.',
 };
 
 export default function AccessibilityPage() {
@@ -42,7 +42,7 @@ export default function AccessibilityPage() {
               1. General Intent
             </h2>
             <p>
-              InstaPost and <strong>RJ Business Solutions LLC</strong> are dedicated to providing a premium application that is accessible to the widest possible audience, regardless of ability or technology. We actively audit our templates and routes to align with the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA parameters.
+              RJ Business Solutions and <strong>RJ Business Solutions LLC</strong> are dedicated to providing a premium application that is accessible to the widest possible audience, regardless of ability or technology. We actively audit our templates and routes to align with the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA parameters.
             </p>
           </section>
 

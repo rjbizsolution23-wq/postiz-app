@@ -3,7 +3,7 @@ import { ForgotReturn } from '@gitroom/frontend/components/auth/forgot-return';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'InstaPost Forgot Password',
+  title: 'RJ Business Solutions Forgot Password',
   description: '',
 };
 export default async function Auth(params: {

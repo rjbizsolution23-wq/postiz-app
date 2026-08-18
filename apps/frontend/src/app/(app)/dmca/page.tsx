@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'DMCA Takedown Notice & Copyright Agent | InstaPost',
-  description: 'DMCA copyright agent designation and notice process for InstaPost, a subsidiary of RJ Business Solutions LLC.',
+  title: 'DMCA Takedown Notice & Copyright Agent | RJ Business Solutions',
+  description: 'DMCA copyright agent designation and notice process for RJ Business Solutions, a subsidiary of RJ Business Solutions LLC.',
 };
 
 export default function DmcaPage() {
@@ -42,7 +42,7 @@ export default function DmcaPage() {
               1. Notice of Infringement
             </h2>
             <p>
-              InstaPost respects intellectual property rights and expects its users to do the same. Pursuant to the Digital Millennium Copyright Act (&ldquo;DMCA&rdquo;), Title 17, United States Code, Section 512, copyright holders can submit a written notice to our designated copyright agent to request removal of allegedly infringing content.
+              RJ Business Solutions respects intellectual property rights and expects its users to do the same. Pursuant to the Digital Millennium Copyright Act (&ldquo;DMCA&rdquo;), Title 17, United States Code, Section 512, copyright holders can submit a written notice to our designated copyright agent to request removal of allegedly infringing content.
             </p>
           </section>
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Media | RJ Business Solutions</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body data-page="media">
+  <div class="app">
+    <aside class="rail" id="rail"></aside>
+    <section class="main">
+      <header class="top">
+        <h1>Media</h1>
+        <div class="meta">
+          <button class="ghost" data-open="upload">Upload</button>
+          <a class="avatar" href="settings.html">RJ</a>
+        </div>
+      </header>
+      <div class="body">
+        <div class="content">
+          <div class="tabs">
+            <button class="tab active" type="button">All</button>
+            <button class="tab" type="button">Images</button>
+            <button class="tab" type="button">Video</button>
+          </div>
+          <div class="media-grid">
+            <a class="file" href="create-post.html"><div class="thumb">OG image</div><strong>og-image.jpg</strong><p class="muted">Used in 3 posts</p></a>
+            <a class="file" href="create-post.html"><div class="thumb">Logo</div><strong>logo.png</strong><p class="muted">Brand kit</p></a>
+            <a class="file" href="create-post.html"><div class="thumb">Reel cover</div><strong>wealth-reel.png</strong><p class="muted">Scheduled Tue</p></a>
+            <a class="file" href="create-post.html"><div class="thumb">Case study</div><strong>client-roi.jpg</strong><p class="muted">Friday slot</p></a>
+            <a class="file" href="create-post.html"><div class="thumb">Walkthrough</div><strong>cost-collapse.mp4</strong><p class="muted">YouTube</p></a>
+            <a class="file" href="#" data-open="upload"><div class="thumb">+ Upload</div><strong>Add media</strong><p class="muted">Images or video</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="modal" id="upload">
+    <div class="modal-box">
+      <h2>Upload media</h2>
+      <p class="muted" style="margin:10px 0 16px">Drop a file or choose one from your computer.</p>
+      <div class="field"><input type="file" /></div>
+      <div style="display:flex;gap:8px">
+        <button class="btn" style="width:auto;padding:0 18px" data-toast="Upload queued" data-close="upload">Upload</button>
+        <button class="ghost" data-close="upload">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="nav.js"></script>
+</body>
+</html>

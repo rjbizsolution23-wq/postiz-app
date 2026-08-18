@@ -4,7 +4,7 @@ export const dynamic = 'force-dynamic';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'InstaPost Integrations',
+  title: 'RJ Business Solutions Integrations',
   description: '',
 };
 export default async function Index() {

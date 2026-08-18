@@ -3,7 +3,7 @@ import { LaunchesComponent } from '@gitroom/frontend/components/launches/launche
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'InstaPost Calendar & Launches',
+  title: 'RJ Business Solutions Calendar & Launches',
   description: '',
 };
 

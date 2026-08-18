@@ -4,7 +4,7 @@ Contributions are welcome - code, docs, whatever it might be! If this is your fi
 
 ## Read the developers guide
 
-The main repository has detailed guides. This document is intended to provide you a good understanding of how to submit your first contribution to **InstaPost**.
+The main repository has detailed guides. This document is intended to provide you a good understanding of how to submit your first contribution to **RJ Business Solutions**.
 
 ## Write code with others
 
@@ -48,5 +48,5 @@ This project follows a Fork/Feature Branch/Pull Request model. If you're not fam
 
 # Need Help?
 
-If you encounter any issues, please open an issue in the [InstaPost App Repository](https://github.com/rjbizsolution23-wq/postiz-app) or contact us at support@rjbusinesssolutions.org. Your contributions help make InstaPost better!
+If you encounter any issues, please open an issue in the [RJ Business Solutions App Repository](https://github.com/rjbizsolution23-wq/postiz-app) or contact us at support@rjbusinesssolutions.org. Your contributions help make RJ Business Solutions better!
 

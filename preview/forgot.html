@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forgot Password | RJ Business Solutions</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="auth-shell">
+    <section class="auth-panel">
+      <div class="auth-inner">
+        <div class="brand">
+          <img src="assets/logo.png" alt="RJ Business Solutions" />
+          <div>
+            <h2>RJ BUSINESS SOLUTIONS</h2>
+            <p>EMPOWERING GENERATIONAL WEALTH</p>
+          </div>
+        </div>
+        <h1 style="font-size:40px;font-weight:500;letter-spacing:-.8px;margin:8px 0 16px">Forgot Password</h1>
+        <p class="muted" style="margin-bottom:20px">Enter your email and we will send a reset link.</p>
+        <form onsubmit="event.preventDefault(); document.getElementById('sent').style.display='block';">
+          <div class="field"><label>Email</label><input type="email" required placeholder="Email Address" /></div>
+          <button class="btn" type="submit">Send reset link</button>
+        </form>
+        <p id="sent" class="ok" style="display:none;margin-top:16px">Reset link sent. Check your inbox.</p>
+        <div class="switch"><a href="index.html">Back to Sign In</a></div>
+      </div>
+    </section>
+    <aside class="hero">
+      <div class="hero-copy">We'll get you back in.</div>
+    </aside>
+  </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Billing | RJ Business Solutions</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body data-page="billing">
+  <div class="app">
+    <aside class="rail" id="rail"></aside>
+    <section class="main">
+      <header class="top">
+        <h1>Billing</h1>
+        <div class="meta">
+          <a class="org" href="settings.html">RJ Business Solutions</a>
+          <a class="avatar" href="settings.html">RJ</a>
+        </div>
+      </header>
+      <div class="body">
+        <div class="content">
+          <div class="grid grid-3">
+            <article class="plan">
+              <h3>Starter</h3>
+              <div class="kpi">$29</div>
+              <p class="muted">1 workspace · 5 channels</p>
+              <button class="ghost" style="width:100%;margin-top:16px" data-toast="Starter selected">Choose Starter</button>
+            </article>
+            <article class="plan" style="outline:1px solid var(--gold)">
+              <h3>Growth <span class="gold">Current</span></h3>
+              <div class="kpi gold">$99</div>
+              <p class="muted">Unlimited channels · AI agent · plugs</p>
+              <button class="add" style="margin-top:16px" data-toast="You are already on Growth">Current plan</button>
+            </article>
+            <article class="plan">
+              <h3>Enterprise</h3>
+              <div class="kpi">Custom</div>
+              <p class="muted">SSO, roles, white-glove onboarding</p>
+              <a class="ghost" href="settings.html" style="width:100%;margin-top:16px">Talk to sales</a>
+            </article>
+          </div>
+          <article class="card" style="margin-top:16px">
+            <h3>Payment method</h3>
+            <p class="muted">Visa ending 4242 · Renews Sep 18, 2026</p>
+            <div style="display:flex;gap:8px;margin-top:12px">
+              <button class="ghost" data-toast="Card update form opened">Update card</button>
+              <button class="danger" data-toast="Cancellation started">Cancel plan</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+  <script src="nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings | RJ Business Solutions</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body data-page="settings">
+  <div class="app">
+    <aside class="rail" id="rail"></aside>
+    <section class="main">
+      <header class="top">
+        <h1>Settings</h1>
+        <div class="meta">
+          <a class="org" href="billing.html">Growth plan</a>
+          <a class="avatar" href="settings.html">RJ</a>
+        </div>
+      </header>
+      <div class="body">
+        <div class="content">
+          <div class="grid grid-2">
+            <article class="set">
+              <h3>Workspace</h3>
+              <form onsubmit="event.preventDefault(); RJ.toast('Workspace saved');">
+                <div class="field"><label>Company</label><input value="RJ Business Solutions" /></div>
+                <div class="field"><label>Support email</label><input value="support@rjbusinesssolutions.org" /></div>
+                <div class="field"><label>Phone</label><input value="1-866-752-4618" /></div>
+                <button class="btn" type="submit">Save workspace</button>
+              </form>
+            </article>
+            <article class="set">
+              <h3>Profile</h3>
+              <form onsubmit="event.preventDefault(); RJ.toast('Profile saved');">
+                <div class="field"><label>Name</label><input value="Rick Jefferson" /></div>
+                <div class="field"><label>Email</label><input value="rick@rjbusinesssolutions.org" /></div>
+                <div class="field"><label>Timezone</label>
+                  <select><option>America/Denver</option><option>America/New_York</option><option>UTC</option></select>
+                </div>
+                <button class="btn" type="submit">Save profile</button>
+              </form>
+            </article>
+            <article class="set">
+              <h3>Notifications</h3>
+              <p class="muted">Email me when a post publishes or a plug fires.</p>
+              <button class="add" style="margin-top:14px" data-toast="Notifications updated">Enable emails</button>
+            </article>
+            <article class="set">
+              <h3>Team</h3>
+              <p class="muted">Invite operators to this workspace.</p>
+              <form onsubmit="event.preventDefault(); RJ.toast('Invite sent'); this.reset();">
+                <div class="field" style="margin-top:12px"><input type="email" placeholder="teammate@email.com" required /></div>
+                <button class="btn" type="submit">Send invite</button>
+              </form>
+              <a class="ghost" href="index.html" style="width:100%;margin-top:12px">Sign out</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+  <script src="nav.js"></script>
+</body>
+</html>
