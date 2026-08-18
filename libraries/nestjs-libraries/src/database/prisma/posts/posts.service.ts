@@ -1029,7 +1029,7 @@ export class PostsService {
       orgId,
       getNotificationsForOrgSince.length === 1
         ? subject
-        : '[InstaPost] Your latest notifications',
+        : '[RJ Business Solutions] Your latest notifications',
       message,
       types.length > 0 ? types : ['success'] // Default to success if no types tracked
     );

@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Cookie Consent & Policy | InstaPost',
-  description: 'Cookie Policy and browser preference information for InstaPost, a subsidiary of RJ Business Solutions LLC.',
+  title: 'Cookie Consent & Policy | RJ Business Solutions',
+  description: 'Cookie Policy and browser preference information for RJ Business Solutions, a subsidiary of RJ Business Solutions LLC.',
 };
 
 export default function CookiesPage() {
@@ -30,7 +30,7 @@ export default function CookiesPage() {
             Cookie Policy
           </h1>
           <p className="mt-3 text-lg text-slate-400 font-medium">
-            Understand how and why we utilize browser cookies on InstaPost.
+            Understand how and why we utilize browser cookies on RJ Business Solutions.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function CookiesPage() {
               2. How We Use Cookies
             </h2>
             <p className="mb-3">
-              InstaPost uses cookies for the following critical purposes:
+              RJ Business Solutions uses cookies for the following critical purposes:
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li><strong>Essential Session Cookies:</strong> We store a secure `auth` cookie to identify who you are and maintain your secure login state across various page loads. These are mandatory for platform operations.</li>

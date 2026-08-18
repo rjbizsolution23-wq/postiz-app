@@ -387,7 +387,7 @@ export const EditorWrapper: FC<{
               and customize the post for this channel
             </div>
             <div>
-              <div className="text-white rounded-[8px] h-[44px] px-[20px] bg-[#D82D7E] cursor-pointer flex justify-center items-center">
+              <div className="text-white rounded-[8px] h-[44px] px-[20px] bg-[#C9A84C] cursor-pointer flex justify-center items-center">
                 Edit content
               </div>
             </div>
@@ -451,7 +451,7 @@ export const EditorWrapper: FC<{
                             onClick={goBackToGlobal}
                           >
                             <div className="flex gap-[6px] items-center">
-                              <div className="w-[8px] h-[8px] rounded-full bg-[#FC69FF]" />
+                              <div className="w-[8px] h-[8px] rounded-full bg-[#C9A84C]" />
                               <div className="text-[14px] font-[600]">
                                 Editing a Specific Network
                               </div>

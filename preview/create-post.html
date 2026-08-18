@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Post | RJ Business Solutions</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body data-page="calendar">
+  <div class="app">
+    <aside class="rail" id="rail"></aside>
+    <section class="main">
+      <header class="top">
+        <h1>Create post</h1>
+        <div class="meta">
+          <a class="org" href="calendar.html">Back to calendar</a>
+          <a class="avatar" href="settings.html">RJ</a>
+        </div>
+      </header>
+      <div class="body">
+        <aside class="sidebar">
+          <div class="channels">
+            <h3>PUBLISH TO</h3>
+            <label class="ch"><input type="checkbox" checked /> LinkedIn</label>
+            <label class="ch"><input type="checkbox" checked /> Instagram</label>
+            <label class="ch"><input type="checkbox" /> X / Twitter</label>
+            <label class="ch"><input type="checkbox" /> Facebook</label>
+            <label class="ch"><input type="checkbox" /> YouTube</label>
+          </div>
+          <a class="ghost" href="media.html" style="width:100%;margin-top:16px">Choose media</a>
+        </aside>
+        <div class="content">
+          <form id="postForm">
+            <div class="field">
+              <label>Caption</label>
+              <textarea>Empowering generational wealth starts with systems that ship every week. Here’s the play RJ Business Solutions is running this month.</textarea>
+            </div>
+            <div class="grid grid-2">
+              <div class="field"><label>Date</label><input type="date" value="2026-08-20" /></div>
+              <div class="field"><label>Time</label><input type="time" value="13:00" /></div>
+            </div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <button class="btn" type="submit" style="width:auto;padding:0 20px">Schedule post</button>
+              <a class="ghost" href="agent.html">Rewrite with Agent</a>
+              <a class="ghost" href="calendar.html">Cancel</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+  <script src="nav.js"></script>
+  <script>
+    document.getElementById('postForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      RJ.toast('Post scheduled');
+      setTimeout(function () { location.href = 'calendar.html'; }, 700);
+    });
+  </script>
+</body>
+</html>

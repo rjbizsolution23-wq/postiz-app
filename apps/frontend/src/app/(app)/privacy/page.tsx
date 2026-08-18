@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Privacy Policy | InstaPost',
-  description: 'Privacy Policy and data governance for InstaPost, a subsidiary of RJ Business Solutions LLC.',
+  title: 'Privacy Policy | RJ Business Solutions',
+  description: 'Privacy Policy and data governance for RJ Business Solutions, a subsidiary of RJ Business Solutions LLC.',
 };
 
 export default function PrivacyPage() {
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="mt-3 text-lg text-slate-400 font-medium">
-            Your trust is our priority. Learn how InstaPost handles and protects your data.
+            Your trust is our priority. Learn how RJ Business Solutions handles and protects your data.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
               1. Overview
             </h2>
             <p>
-              InstaPost (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), a premium social media scheduling suite operated by <strong>RJ Business Solutions LLC</strong>, is committed to safeguarding your privacy. This Privacy Policy describes how we collect, use, and share your personal information when you use our web application and services.
+              RJ Business Solutions (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;), a premium social media scheduling suite operated by <strong>RJ Business Solutions LLC</strong>, is committed to safeguarding your privacy. This Privacy Policy describes how we collect, use, and share your personal information when you use our web application and services.
             </p>
           </section>
 

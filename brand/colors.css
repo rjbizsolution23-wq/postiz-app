@@ -1,10 +1,11 @@
 :root {
-  --color-primary: #06b6d4;      /* cyan */
-  --color-secondary: #ec4899;    /* pink */
-  --color-accent: #fbbf24;       /* amber */
+  --color-primary: #001963;      /* official RJ navy */
+  --color-primary-bright: #1B4FD8;
+  --color-secondary: #0A2A7A;
+  --color-accent: #C9A84C;       /* heritage gold */
   --color-success: #10b981;
   --color-danger: #ef4444;
-  --color-dark-bg: #030712;
+  --color-dark-bg: #050814;
   --color-light-bg: #ffffff;
-  --gradient-primary: linear-gradient(135deg, #06b6d4 0%, #ec4899 100%);
+  --gradient-primary: linear-gradient(135deg, #001963 0%, #1B4FD8 100%);
 }

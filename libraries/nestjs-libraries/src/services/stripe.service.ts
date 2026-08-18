@@ -666,7 +666,7 @@ export class StripeService {
       line_items: [
         ...ordersItems,
         {
-          integrationType: `InstaPost Fee (${+process.env.FEE_AMOUNT! * 100}%)`,
+          integrationType: `RJ Business Solutions Fee (${+process.env.FEE_AMOUNT! * 100}%)`,
           quantity: 1,
           price: price * +process.env.FEE_AMOUNT!,
         },

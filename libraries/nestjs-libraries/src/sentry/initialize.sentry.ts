@@ -16,7 +16,7 @@ export const initializeSentry = (appName: string, allowLogs = false) => {
         },
         contexts: {
           app: {
-            name: `InstaPost ${capitalize(appName)}`,
+            name: `RJ Business Solutions ${capitalize(appName)}`,
           },
         },
       },

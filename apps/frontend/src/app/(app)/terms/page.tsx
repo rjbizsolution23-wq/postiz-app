@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Terms of Service | InstaPost',
-  description: 'Terms of Service and User Agreements for InstaPost, a subsidiary of RJ Business Solutions LLC.',
+  title: 'Terms of Service | RJ Business Solutions',
+  description: 'Terms of Service and User Agreements for RJ Business Solutions, a subsidiary of RJ Business Solutions LLC.',
 };
 
 export default function TermsPage() {
@@ -30,7 +30,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="mt-3 text-lg text-slate-400 font-medium">
-            Please read these Terms carefully before using the InstaPost platform.
+            Please read these Terms carefully before using the RJ Business Solutions platform.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function TermsPage() {
               1. Acceptance of Terms
             </h2>
             <p>
-              By accessing and using InstaPost (&ldquo;the Service&rdquo;), you agree to comply with and be bound by these Terms of Service. If you do not agree, you must immediately cease all utilization of the Service. The Service is owned and operated in full by <strong>RJ Business Solutions LLC</strong>.
+              By accessing and using RJ Business Solutions (&ldquo;the Service&rdquo;), you agree to comply with and be bound by these Terms of Service. If you do not agree, you must immediately cease all utilization of the Service. The Service is owned and operated in full by <strong>RJ Business Solutions LLC</strong>.
             </p>
           </section>
 
@@ -52,12 +52,12 @@ export default function TermsPage() {
               2. User Obligations & Conduct
             </h2>
             <p className="mb-3">
-              When utilizing InstaPost to publish content, you warrant that:
+              When utilizing RJ Business Solutions to publish content, you warrant that:
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>All content published by you is compliant with local, state, and federal laws.</li>
               <li>You will not use the platform to orchestrate spam, harassment, or disseminate malicious code/malware.</li>
-              <li>You will respect the API limits and rate guidelines of both InstaPost and connected social media networks.</li>
+              <li>You will respect the API limits and rate guidelines of both RJ Business Solutions and connected social media networks.</li>
             </ul>
           </section>
 
@@ -67,7 +67,7 @@ export default function TermsPage() {
               3. Credit Repair and Financial Compliance
             </h2>
             <p className="mb-3">
-              If utilizing InstaPost for credit repair services, consulting, or marketing under CROA/FCRA niches, you agree to:
+              If utilizing RJ Business Solutions for credit repair services, consulting, or marketing under CROA/FCRA niches, you agree to:
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Adhere to all written contract disclosure guidelines before any service is rendered.</li>

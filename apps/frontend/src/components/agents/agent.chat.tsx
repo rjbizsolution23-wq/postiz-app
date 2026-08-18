@@ -44,7 +44,7 @@ export const AgentChat: FC = () => {
       credentials="include"
       runtimeUrl={backendUrl + '/copilot/agent'}
       showDevConsole={false}
-      agent="instapost"
+      agent="rjBusinessSolutions"
       properties={{
         integrations: properties,
       }}
@@ -65,7 +65,7 @@ export const AgentChat: FC = () => {
             className="w-full h-full"
             labels={{
               title: 'Your Assistant',
-              initial: `Hello, I am your InstaPost agent 🙌🏻.
+              initial: `Hello, I am your RJ Business Solutions agent 🙌🏻.
               
 I can schedule a post or multiple posts to multiple channels and generate pictures and videos.
 

@@ -3,7 +3,7 @@ import { Login } from '@gitroom/frontend/components/auth/login';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'InstaPost Login',
+  title: 'RJ Business Solutions Login',
   description: '',
 };
 export default async function Auth() {

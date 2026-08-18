@@ -310,7 +310,7 @@ describe('confineAndVerify (Media.path entrypoint)', () => {
     });
 
     it('rejects filename containing backslash (rule c, MINOR-1)', async () => {
-      // Backslash anywhere — even in the leaf — rejects. No legitimate Postiz
+      // Backslash anywhere — even in the leaf — rejects. No legitimate RJ Business Solutions
       // upload writes a backslash to disk.
       await expectReject('/2025/01/02/file\\name.png', 'traversal');
     });

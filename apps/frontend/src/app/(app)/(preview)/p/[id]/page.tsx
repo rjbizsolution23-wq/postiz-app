@@ -22,7 +22,7 @@ const RenderPreviewDate = dynamicLoad(
 
 dayjs.extend(utc);
 export const metadata: Metadata = {
-  title: `InstaPost Preview`,
+  title: `RJ Business Solutions Preview`,
   description: '',
 };
 export default async function Auth({
@@ -65,7 +65,7 @@ export default async function Auth({
                     />
                   </div>
                   <div>
-                    <span className="font-bold text-2xl tracking-tight text-white font-outfit">InstaPost</span>
+                    <span className="font-bold text-2xl tracking-tight text-white font-outfit">RJ Business Solutions</span>
                   </div>
                 </Link>
               </div>
